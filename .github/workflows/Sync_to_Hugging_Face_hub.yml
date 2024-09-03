@@ -17,3 +17,4 @@ jobs:
         env:
           HAGGINGFACE_API_KEY: ${{ secrets.HAGGINGFACE_API_KEY}}
         run: git push --force https://2524shreyash:$HF_TOKEN@huggingface.co/spaces/2524shreyash/MCQgenerator main 
+
